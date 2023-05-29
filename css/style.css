@@ -21,6 +21,24 @@ body {
     gap: 2rem;
 }
 
+.circle {
+    width: 50rem;
+    height: 50rem;
+    background: green;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle--first {
+    top: 0;
+    left: 0;
+}
+
+.circle--second {
+    right: 0;
+    bottom: 0;
+}
+
 .card {
     height: 50rem;
     width: 40rem;
