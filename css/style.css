@@ -107,6 +107,18 @@ body {
     background: #FFD24C;
 }
 
+.card__category--film {
+    background: #EB5353;
+}
+
+.card__category--horror {
+    background: #F73D93;
+}
+
+.card__category--gaming {
+    background: #3BACB6;
+}
+
 .card__category {
     list-style: none;
     color: white;
