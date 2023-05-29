@@ -154,3 +154,17 @@ body {
         filter: blur(0.5rem);
     }
 }
+
+@media screen and (max-width: 75rem) {
+    body {
+        padding: 2rem;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .circle {
+        display: none;
+    }
+}
