@@ -32,11 +32,14 @@ body {
 .circle--first {
     top: 0;
     left: 0;
+    background: linear-gradient(to right, #3BACB6, 30%, #F73D93);
 }
 
 .circle--second {
     right: 0;
     bottom: 0;
+    background: linear-gradient(to right, #EB5353, 80%, #FFD24C);
+
 }
 
 .card {
