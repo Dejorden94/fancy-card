@@ -19,6 +19,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #eee;
     gap: 2rem;
+    flex-wrap: wrap;
+    padding: 8rem;
 }
 
 .circle {
