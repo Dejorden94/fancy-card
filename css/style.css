@@ -36,6 +36,10 @@ body {
 }
 
 .card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
     height: 50%;
     width: 100%;
 }
