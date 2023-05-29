@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     background: #eee;
+    gap: 2rem;
 }
 
 .card {
