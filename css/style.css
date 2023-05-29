@@ -44,3 +44,8 @@ body {
     width: 100%;
     background: purple;
 }
+
+.card__footer>img {
+    width: 10%;
+    height: 10%;
+}
