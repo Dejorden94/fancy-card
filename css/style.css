@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 .card {
@@ -37,15 +38,31 @@ body {
 .card__body {
     height: 50%;
     width: 100%;
-    background: red;
 }
 
 .card__categories {
     display: flex;
+    gap: 0.7rem;
+}
+
+.card__category--pukel {
+    background: #3BACB6;
+}
+
+.card__category--festival {
+    background: #FFD24C;
+}
+
+.card__category--muziek {
+    background: #F73D93;
 }
 
 .card__category {
     list-style: none;
+    color: white;
+    font-size: 70%;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
 }
 
 .card__footer {
