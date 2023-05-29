@@ -37,8 +37,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    filter: blur(10rem);
     z-index: -1;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -78,7 +80,7 @@ body {
 }
 
 .card__category--muziek {
-    background: #F73D93;
+    background: #FFD24C;
 }
 
 .card__category {
@@ -117,4 +119,14 @@ body {
 .card__footer p {
     font-size: 70%;
     font-weight: 300;
+}
+
+@keyframes rainbow {
+    from {
+        filter: blur(10rem);
+    }
+
+    to {
+        filter: blur(0.5rem);
+    }
 }
