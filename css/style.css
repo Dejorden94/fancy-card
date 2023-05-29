@@ -31,12 +31,21 @@ body {
 .card__figure>img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .card__body {
     height: 50%;
     width: 100%;
     background: red;
+}
+
+.card__categories {
+    display: flex;
+}
+
+.card__category {
+    list-style: none;
 }
 
 .card__footer {
