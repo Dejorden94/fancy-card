@@ -25,10 +25,22 @@ body {
 
 .card__figure {
     width: 100%;
-    height: 100%;
+    height: 30%;
 }
 
 .card__figure>img {
     width: 100%;
     height: 100%;
+}
+
+.card__body {
+    height: 50%;
+    width: 100%;
+    background: red;
+}
+
+.card__footer {
+    height: 20%;
+    width: 100%;
+    background: purple;
 }
