@@ -74,12 +74,27 @@ body {
 }
 
 .card__footer {
+    display: flex;
     height: 20%;
     width: 100%;
     background: purple;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: center;
 }
 
-.card__footer>img {
-    width: 10%;
-    height: 10%;
+.card__pf {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.card__footer h3 {
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.card__footer p {
+    font-size: 80%;
+    font-weight: 300;
 }
